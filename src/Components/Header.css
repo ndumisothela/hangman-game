@@ -1,0 +1,14 @@
+.nav_head {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Press start 2P", cursive;
+  color: blue;
+  padding: 7px;
+  background-color: antiquewhite;
+  text-align: center;
+  align-items: center;
+}
+.home {
+  text-decoration: none;
+  color: blue;
+}

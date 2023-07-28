@@ -1,0 +1,46 @@
+.hangman-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+  background-color: white;
+  border: 5px solid grey;
+  margin-left: 350px;
+  border-radius: 15px;
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.hangman-image-container {
+  display: flex;
+  justify-content: center;
+}
+
+.text-center {
+  display: flex;
+  flex-direction: column;
+  margin-left: 240px;
+  align-content: center;
+  justify-content: center;
+  width: 250px;
+  height: auto;
+}
+.text-center img {
+  width: 250px;
+  height: auto;
+}
+.text-center h3 {
+  font-size: 30px;
+}
+.input {
+  width: 250px;
+  height: 30px;
+  margin-bottom: 5px;
+}
+.text-center button {
+  width: 150px;
+  height: 42px;
+  background-color: bisque;
+  border: none;
+  border-radius: 5px;
+}

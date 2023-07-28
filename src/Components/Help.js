@@ -1,0 +1,41 @@
+import "./Help.css";
+import React from "react";
+
+const Help = () => {
+  return (
+    <>
+      <div className="help_cover">
+        <h3>How to play</h3>
+        <ul>
+          <li>Hangman game is a guessing game</li>
+          <li>The player guess the letters needed to complete the word</li>
+          <li>
+            The player enters the letter in the inputbox and press ENTER or
+            click the "guess" button
+          </li>
+          <li>
+            With very letter you enter press ENTER or click the guess button
+          </li>
+          <li>
+            {" "}
+            If the letter is in the mystry word, it will appear on the blanks as
+            a clue in the correct position of the letter on the word{" "}
+          </li>
+          <li>
+            But if the letter is not on the mystry word, a drawing of a hangman
+            with start to apprear and with each failed attempt the drawing
+            continue until it completely form a hangman
+          </li>
+          <li>
+            If you continue to guess corectly, you will complete the word and
+            win the game
+          </li>
+          <li>and you lose the game. But</li>
+          <li>Weather you win or lose you can press restart to play again.</li>
+        </ul>
+        <p></p>
+      </div>
+    </>
+  );
+};
+export default Help;

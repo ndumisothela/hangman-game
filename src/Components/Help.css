@@ -1,0 +1,14 @@
+.help_cover {
+  border: 1px solid orange;
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  width: 50%;
+  margin-left: 350px;
+  margin-top: 20px;
+  font-size: large;
+  border-radius: 15px;
+}
