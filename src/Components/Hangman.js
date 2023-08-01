@@ -3,7 +3,7 @@
 
 import React, { useState, useEffect } from "react";
 import { Container, Row, Col, Image, Form, Button } from "react-bootstrap";
-import "./Hangman.css";
+import "./CssFiles/Hangman.css";
 import state1 from "../Images/state1.GIF";
 import state2 from "../Images/state2.GIF";
 import state3 from "../Images/state3.GIF";
