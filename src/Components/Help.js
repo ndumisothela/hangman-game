@@ -1,8 +1,10 @@
 import "./Help.css";
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 const Help = () => {
   return (
+    //list of instruction of how to play the game.
     <>
       <div className="help_cover">
         <h3>How to play</h3>
@@ -34,6 +36,11 @@ const Help = () => {
           <li>Weather you win or lose you can press restart to play again.</li>
         </ul>
         <p></p>
+        <nav className="game_link">
+          <NavLink className="game_container" to="/game">
+            <button> GAME</button>
+          </NavLink>
+        </nav>
       </div>
     </>
   );

@@ -92,12 +92,16 @@ const Hangman = () => {
   };
 
   useEffect(() => {
-    //useEffect is used to select a random word from the arrayand set it as a randomWord state variable.
+    //useEffect is used to select a random word from the array and set it as a randomWord state variable.
     const randomChallenge =
       RANDOMWORDS[Math.floor(Math.random() * RANDOMWORDS.length)];
     setRandomWord(randomChallenge);
-    setBlanks("+".repeat(randomChallenge.length));
+    setBlanks("+".repeat(randomChallenge.length)); //the .repeat() method is used to set the initial value of blanks as a string of (+) with the same length as the selected word.
   }, []);
+
+  // a renderBlanks function that splits the blanks string into an array of characters using .split('')
+  // We then use array.map() to iterate over each character and return a <span> element for each character.
+  //The key prop is set to the index of each character to ensure each key is different.
 
   const renderBlanks = () => {
     return blanks.split("").map((char, index) => (
@@ -137,6 +141,9 @@ const Hangman = () => {
     <Container className="hangman-container">
       <Row className="hangman-row">
         <Col className="hangman-col">
+          {/*The renderHangmanImage function is called to display the Hangman image.
+        a conditional statement, if user fails ,display gameover and a complete hangman image including the correct mystry word ,
+         if the user wins,display  'congratulation' and a dancing image.   */}
           <div className="hangman-image-container">{renderHangmanImage()}</div>
           {gameOver ? (
             <div className="text-center">
@@ -159,7 +166,7 @@ const Hangman = () => {
               <div className="blanks">
                 <h3>{renderBlanks()}</h3>
               </div>
-
+              {/* */}
               <Form onSubmit={handleSubmit}>
                 <Form.Group controlId="formLetter">
                   <Form.Control

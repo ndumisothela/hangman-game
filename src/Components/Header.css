@@ -1,14 +1,24 @@
+/*styling the header */
 .nav_head {
   display: flex;
   justify-content: space-between;
   font-family: "Press start 2P", cursive;
-  color: blue;
+  color: #0079ff;
   padding: 7px;
   background-color: antiquewhite;
   text-align: center;
   align-items: center;
 }
+/*styling the h1 heading */
 .home {
   text-decoration: none;
-  color: blue;
+  color: #ff2171;
+}
+/*the links to the help page*/
+.help {
+  margin-right: 20px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
 }
