@@ -1,4 +1,5 @@
-.help_cover {
+/*styling the box the contain the instructions of how to play the game and the rules*/
+.game_container {
   border: 1px solid orange;
   background-color: aliceblue;
   display: flex;
@@ -11,4 +12,13 @@
   margin-top: 20px;
   font-size: large;
   border-radius: 15px;
+}
+/*the button that link us back to the game page*/
+.game_container button {
+  width: 150px;
+  height: 30px;
+  background-color: #ff2171;
+  border: none;
+  border-radius: 5px;
+  color: aliceblue;
 }

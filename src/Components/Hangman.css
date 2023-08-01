@@ -1,3 +1,4 @@
+/*this the main coontainer of the page, provided by bootstrape*/
 .hangman-container {
   display: flex;
   justify-content: center;
@@ -11,11 +12,12 @@
   padding-top: 10px;
   padding-bottom: 10px;
 }
+/*alinging the drawings to show the hangman with each progress of the game*/
 .hangman-image-container {
   display: flex;
   justify-content: center;
 }
-
+/*this is responsible for the images when the user guesses wrong */
 .text-center {
   display: flex;
   flex-direction: column;
@@ -29,14 +31,17 @@
   width: 250px;
   height: auto;
 }
+/*when you fail the game and its over*/
 .text-center h3 {
   font-size: 30px;
 }
+/*the input box where the user/player inputs the guessed letters*/
 .input {
   width: 250px;
   height: 30px;
   margin-bottom: 5px;
 }
+/*if you win or lose the restart button will appear , to play again.*/
 .text-center button {
   width: 150px;
   height: 42px;
