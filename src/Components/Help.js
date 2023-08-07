@@ -8,6 +8,7 @@ const Help = () => {
     <>
       <div className="help_cover">
         <h2>How to play</h2>
+
         <ul>
           <li>Hangman game is a guessing game</li>
           <li>The player guess the letters needed to complete the word</li>
