@@ -17,3 +17,19 @@ Hangman game is a guessing game
           
             - If you continue to guess correctly, you will complete the word and
             win the game. But Weather you win or lose you can press restart to play again.
+
+
+            -----------------------------------------------------------------------------------------------------------------------
+            *HOW TO SETUP THE GAME ON YOUR LOCAL MECHINE AND PLAY IT *
+
+            - Download the file from dropbox.
+            - Extract it from the zip file.
+            - open the gametime file with you IDE editor.preferebly VScode.
+            - once the gametime file is open on your IDE,open your terminal .
+            - direct it to the hangman file using *cd hangman* on your terminal.
+            - once you are inside the hangman directory .
+            - install the node_modules, using npm install or npm install react-scripts.
+            - once your node_modules is complete, run the npm start , to open the program on the chrome browser.  
+            -  Once the program opens on the browser , you can nevigate from homepage to the game to START playing.  
+
+                  
